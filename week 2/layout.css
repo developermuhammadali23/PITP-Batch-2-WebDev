@@ -24,7 +24,7 @@ hr{
 }
 
 .demo-section {
-    background-color:black
+    background-color:white
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -33,7 +33,7 @@ hr{
 .resize-note {
     margin-top: 20px;
     font-style:italic;
-    color: #555;
+    color: blue;
     text-align: center;
 }
 
@@ -64,7 +64,7 @@ hr{
 
 .nav-bar a {
     text-decoration: none;
-    color: #007bff;
+    color: black;
     padding: 8px 15px;
     border: 1px solid transparent;
     transition: background-color 0.3s;
@@ -81,7 +81,6 @@ hr{
 }
 
 .flex-item{
-    background-color: #28a745;
     color: white;
     padding: 20px;
     margin: 10px;
