@@ -35,6 +35,7 @@ hr{
     font-style:italic;
     color: blue;
     text-align: center;
+    padding: 20px;
 }
 
     /* --- flex container setup ---*/
@@ -42,7 +43,7 @@ hr{
 .flex-container {
     /*REQUIRED: This turns on flexbox for the container */
     display: flex;
-    border: 2px dashed #007bff;
+    border: 2px dashed #7f848a;
     padding: 10px;
     min-height: 100px;
     margin-top: 15px;
@@ -59,7 +60,7 @@ hr{
 
     /* center items vertically along cross Axis */
     align-items: center;
-    background-color: #e9f5ff
+    background-color: #07f31b
 }   
 
 .nav-bar a {
