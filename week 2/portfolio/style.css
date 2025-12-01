@@ -6,17 +6,22 @@
 }
 
 body{
-    background-color: darkkhaki;
+    background-color: white;
 }
 
 header{
     display: flex;
+    flex-direction:row;
     align-items: center;
     background-color: yellowgreen;
     justify-content: space-between;
-    padding: 0px;
-    gap: 0px;
+    padding: 35px;
     color:blue;
+}
+
+nav{
+    display: flex;
+    gap:20px;
 }
 
 ul{
@@ -33,18 +38,20 @@ img {
     
 }
 
-main {
+main {  
     display: flex;
     flex-direction: column;
     padding: 20px;
     gap: 20px;
-    aling-items: left;
+    align-items: left;
 
-    background-color: turquoise;
+    background-color: white;
 }
 
 p {
+
     font-size: 12px;
+    justify-content: center;
 
 }
 
@@ -69,6 +76,7 @@ a {
 
 nav a {
     color: white;
+    font-weight: bold;
 
 }
 
