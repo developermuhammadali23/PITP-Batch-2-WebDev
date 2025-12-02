@@ -75,7 +75,6 @@ body {
 
 
 /* --- MEDIA QUERY FOR RESPONSIVENESS (Mobile View) --- */
-
 /* Changes the layout when the viewport is 768px wide or smaller */
 @media (max-width: 768px) {
     
