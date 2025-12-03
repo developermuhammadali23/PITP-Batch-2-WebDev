@@ -135,9 +135,7 @@
         }
 
         /* --- MENU SECTION --- */
-        #menu {
-            padding: 60px 5%;
-        }
+        
 
         .section-title {
             text-align: left;
@@ -158,6 +156,7 @@
             grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
             gap: 30px;
             background-color: var(--bg-dark-grey);
+            padding: 20px;
         }
 
         .menu-category:hover {
@@ -165,6 +164,8 @@
             transform: scale(1.1);
             background-color: grey;
         }
+        
+        
 
         .menu-category {
             background-color: grey;
