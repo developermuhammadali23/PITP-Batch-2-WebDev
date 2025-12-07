@@ -1,0 +1,51 @@
+     body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: rgb(127, 127, 223);
+        color: white;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0; 
+    }
+    .container{
+        background-color: #34495e;
+        padding:40px;
+        border-radius: 15px;
+        box-shadow: 0,10px,20px  rgba(0, 0, 0, 0.2);
+        max-width: 400px;
+        height: 100px;
+        
+    }
+    h1{
+        font-size: 2.5em;
+        margin-bottom: 20px;
+        color:whitesmoke;
+    }
+    button{
+        background-color:brown;
+        color:antiquewhite;
+        border: none;
+        padding: 15px 10px;
+        font-size: 1.2em;
+        border-radius: 50px;/* made it rounder for nicer feel */
+        cursor: pointer;
+        transition: all 0.2s;
+        box-shadow: 0 4px 6px black;
+
+    }
+    button:hover{
+        background-color:lightcoral;
+        transform: translate(1px);
+        box-shadow: 0 4px 6px black;
+    }
+    button:active{
+        transform: translate(2);
+    }
+    #answer{
+        font-size: 1.2em;
+        font-weight: bold;
+        min-height: 60px;
+        padding: 20px;
+    }

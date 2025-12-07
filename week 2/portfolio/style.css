@@ -32,7 +32,7 @@ ul{
 }
 
 img {
-    border-radius: 100px;
+    border-radius: 80px;
     border: 10px solid darkblue;
     align-items: left;
     
@@ -45,7 +45,7 @@ main {
     gap: 20px;
     align-items: left;
 
-    background-color: white;
+    
 }
 
 p {
