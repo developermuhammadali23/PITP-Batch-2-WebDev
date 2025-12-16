@@ -6,13 +6,17 @@
       "It's certain.",
       "choise are good.",
       "my sourse say no.",
-      "it is not type.",
-      "chance are not good.",
-      "dogs know better than you.",
+      "it is not mytype.",
+      "yup.",
+      "yes.",
+      "nope.",
+      "ask again later.",
+      "concentrate and ask again.", 
+      "leave your question  just remember you are beautiful.",
       "your fortune are available .",
       "you are unlucky for some time.",
       "time of some break ask letter.",
-      "you hight is not good",
+      "your hight is not good",
       "you are about to die.",
     ];
 
@@ -21,7 +25,7 @@
 
     // 3. The function that runs on click
     function showRandomAnswer() {
-     const randomIndex = Math.floor(Math.random() * answers.length);
+ const randomIndex = Math.floor(Math.random() * answers.length);
      const randomAnswer = answers[randomIndex];
       answerDisplay.textContent = randomAnswer;
     }

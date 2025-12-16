@@ -1,0 +1,50 @@
+body{
+    font-family: sans-serif;
+    background-color: cadetblue;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.quiz-container{
+    background-color: lightblue;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: slategrey;
+    max-width: 500px;
+    width: 100%;
+    
+}
+
+.question-block{
+    margin-bottom:20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid cadetblue;
+    
+}
+
+button{
+    background-color: cadetblue;
+    border:1px solid cadetblue; 
+    color: gainsboro;
+    padding: 10px,20px;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 100%;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: lightblue;
+    color: rgb(54, 97, 99);
+    font-weight:bolder ;
+    transform: scale(1.1);
+    
+}
+
+.result-box{
+    margin-top: 20px;
+    background-color: cadetblue;
+    text-align:center;
+    border-radius: 5px;
+}
