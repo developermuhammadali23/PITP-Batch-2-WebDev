@@ -1,0 +1,327 @@
+
+/* Smooth Scrolling Effect */
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif; /* A clean, modern font stack */
+}
+
+/* Header Styles */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: -1px;
+    color: #1a1a1a;
+}
+
+.logo span {
+    color: #3b82f6; /* Blue Accent */
+}
+
+/* Nav Link Styles */
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin-left: 40px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #4b5563;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #3b82f6;
+}
+
+/* Contact Button Style */
+.btn-cta {
+    background-color: #1a1a1a;
+    color: #ffffff !important;
+    padding: 10px 24px;
+    border-radius: 8px;
+}
+
+.btn-cta:hover{
+    background-color:none;
+}
+
+/* Services Section Styles */
+.section-header {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 100px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* 4 cards in 1 div */
+    gap: 10px;
+}
+
+.service-card {
+    background: #ffffff;
+    padding: 30px 10px;
+    border-radius: 15px;
+    text-align: center;
+    transition: all 0.4s ease;
+    border: 1px solid #e2e8f0;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+    border-color: #3b82f6;
+}
+
+.service-icon {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.service-card h3 {
+    font-size: 1.25rem;
+    color: #1a1a1a;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    font-size: 0.95rem;
+    color: #64748b;
+    line-height: 1.6;
+}
+
+/* Gray Background Utility */
+.gray-bg {
+    background-color: #f8fafc;
+}
+
+.btn-cta:hover {
+    background-color: #3b82f6;
+}
+
+/* Section Styling */
+.section {
+    padding: 100px 0;
+    height: 600px; /* Temporary height to allow scrolling */
+    background-color: #f3f4f6;
+}
+
+
+.gray-bg {
+    background-color: #f3f4f6;
+}
+
+h2 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+/* Hero Section Layout */
+.hero-section {
+    padding: 140px 0 80px; /* Space for fixed header */
+    background-color: #f3f4f6;
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr; /* Image on left, text on right */
+    gap: 50px;
+    align-items: center;
+    background-color: #f3f4f6;
+
+}
+
+/* Profile Image Styling */
+.section-header img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+    object-fit: cover;
+}
+
+
+/* Text Content Styling */
+.badge {
+    color: #3b82f6;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    color: #1a1a1a;
+    margin: 10px 0 20px;
+    line-height: 1.1;
+}
+
+.bio {
+    font-size: 1.1rem;
+    color: #636e72;
+    margin-bottom: 30px;
+}
+
+
+
+.contact-text p {
+    color: #64748b;
+    font-size: 1rem;
+}
+
+/* Make sure Font Awesome is working for these icons */
+
+.info-item {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.info-item strong {
+    color: #1a1a1a;
+    width: 80px;
+    display: inline-block;
+}
+
+.btn-main {
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: #3b82f6;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition:all 0.3s ease;
+}
+
+.btn-main:hover {
+    transform: translateY(-3px);
+    background-color: #1a1a1a;
+}
+
+/* Responsive for Mobile */
+@media (max-width: 768px) {
+    .hero-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .hero-image {
+        order: -1;
+    }
+    .info-item strong {
+        display: block;
+        width: 100%;
+    }
+}
+
+.joe{
+    color:#1a1a1a;
+    text-decoration: none;
+}
+
+/* Contact Row Alignment */
+.contact-row {
+    display: flex;
+    justify-content: space-between; /* Puts them in a perfect row */
+    gap: 20px;
+    margin-top: 40px;
+    flex-wrap: wrap; /* Allows them to stack on small mobile screens */
+}
+
+.contact-box:hover{
+    transform: translateY(-10px);
+    border: 1px solid #3b82f6;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+    
+}
+
+.contact-box {
+    flex: 1; /* Makes all boxes equal width */
+    min-width: 250px;
+    background: #ffffff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    border: 1px solid #e5e7eb;
+}
+
+.contact-box i {
+    font-size: 2rem;
+    color: #1a1a1a;
+    margin-bottom: 15px;
+}
+
+
+/* Footer Styling - Ensuring no disturbance */
+.main-footer {
+    background: #1a1a1a;
+    color: #2563eb;
+    padding: 30px 0;
+    margin-top: 80px; /* Space between last section and footer */
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-socials a {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+.footer-socials a:hover {
+    color: #3b82f6;
+    transform: scaleY(1.2);
+}
+
+
+/* Fix for small screens */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+    .contact-row {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Professional CV — Your Name</title>
+  <style>
+    :root{--accent:#0b74de;--accent2:#6c5ce7;--muted:#6b7280;--bg:#f7fafc;--card:#fff}
+    *{box-sizing:border-box}
+    body{font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin:0;background:var(--bg);color:#0f172a}
+    .container{max-width:900px;margin:28px auto;padding:24px}
+    .card{background:var(--card);border-radius:10px;box-shadow:0 6px 20px rgba(15,23,42,0.08);overflow:hidden}
+    .grid{display:grid;grid-template-columns:280px 1fr}
+    header{display:flex;align-items:center;gap:16px;padding:28px}
+    .photo{width:96px;height:96px;border-radius:50%;object-fit:cover;border:3px solid var(--accent)}
+    h1{margin:0;font-size:20px;color:var(--accent)}
+    .meta{color:var(--muted);font-size:14px;margin-top:6px}
+    .sidebar{background:linear-gradient(180deg,#fbfdff, #f8fafc);padding:24px}
+    .section{padding:20px 28px;border-bottom:1px solid #f1f5f9}
+    .section h2{margin:0 0 12px 0;font-size:14px;color:#ff8c00;text-transform:uppercase;letter-spacing:1px}
+    .contact li{list-style:none;margin:8px 0;color:var(--muted);font-size:14px}
+    .skill{display:flex;flex-wrap:wrap;gap:8px}
+    .chip{background:#eef2ff;color:#1e293b;padding:6px 10px;border-radius:999px;font-size:13px}
+    .content{padding:24px}
+    .job{margin-bottom:16px}
+    .job h3{margin:0;font-size:16px;color:#000}
+    .job .muted{color:var(--muted);font-size:13px;margin-top:4px}
+    .bullet{margin-top:8px;color:#334155;line-height:1.5}
+    .two-cols{display:flex;gap:20px;flex-wrap:wrap}
+    .edu,.proj{margin-bottom:12px}
+    footer{padding:18px 28px;color:var(--muted);font-size:13px}
+    @media (max-width:800px){.grid{grid-template-columns:1fr}.sidebar{order:2}.content{order:1}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="grid">
+        <div class="sidebar">
+          <header>
+            <img src="bg-image.jpg" alt="Profile photo" class="photo" />
+            <div>
+              <h1>Your Name</h1>
+              <div class="meta">Front-end Developer • UI/UX Enthusiast</div>
+            </div>
+          </header>
+
+          <div class="section">
+            <h2>Contact</h2>
+            <ul class="contact">
+              <li>Email: momisolangi@gmail.com</li>
+              <li>Phone: +92-3468930739</li>
+              <li>Location: City, Country</li>
+              <li>Website: portfolio.com</li>
+            </ul>
+          </div>
+
+          <div class="section">
+            <h2>Skills</h2>
+            <div class="skill">
+              <span class="chip">HTML</span>
+              <span class="chip">CSS</span>
+              <span class="chip">JavaScript</span>
+              <span class="chip">React</span>
+              <span class="chip">Responsive Design</span>
+            </div>
+          </div>
+
+          <div class="section">
+            <h2>Tools</h2>
+            <div class="skill">
+              <span class="chip">Figma</span>
+              <span class="chip">Git</span>
+              <span class="chip">VS Code</span>
+            </div>
+          </div>
+
+          <div class="section">
+            <h2>Languages</h2>
+            <div class="skill">
+              <span class="chip">English (improved)</span>
+            </div>
+          </div>
+        </div>
+
+        <main class="content">
+          <div class="section">
+            <h2>Profile</h2>
+            <p class="bullet">Product-focused front-end developer with 1+ years building responsive interfaces and pixel-perfect user experiences. Strong collaboration skills and a track record of shipping products that improve user engagement.</p>
+          </div>
+
+          <div class="section">
+            <h2>Experience</h2>
+            <div class="job">
+              <h3>Senior Front-end Developer — Acme Co</h3>
+              <div class="muted">Jan 2022 — Present • Remote</div>
+              <ul class="bullet">
+                <li>Led the front-end rewrite of the main product using React and TypeScript, improving load time by 35%.</li>
+                <li>Implemented a design system and accessible components used across the product suite.</li>
+              </ul>
+            </div>
+
+            <div class="job">
+              <h3>Front-end Developer — Startup XYZ</h3>
+              <div class="muted">May 2019 — Dec 2021 • City</div>
+              <ul class="bullet">
+                <li>Built responsive landing pages and dashboards; improved conversion by 18% through A/B testing.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="section">
+            <h2>Education</h2>
+            <div class="edu">
+              <strong>Inter in pre-Engineering</strong>
+              <div class="muted"> collage Name — 2015–2019</div>
+            </div>
+          </div>
+
+          <div class="section">
+            <h2>Projects</h2>
+            <div class="proj">
+              <strong>Project Name</strong>
+              <div class="muted">Short description — <a href="#">link</a></div>
+            </div>
+          </div>
+
+          <footer>
+            References available on request • Last updated: 2025
+          </footer>
+        </main>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
