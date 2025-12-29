@@ -263,8 +263,8 @@ h2 {
 
 .contact-box:hover{
     transform: translateY(-10px);
-    border: 1px solid #3b82f6;
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+    border: none;
+    box-shadow: 0 20px 25px -5px rgba(25,5,0);
     
 }
 
@@ -275,7 +275,7 @@ h2 {
     padding: 30px;
     text-align: center;
     border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    box-shadow: 0 5px 15px rgba(25,5,0);
     border: 1px solid #e5e7eb;
 }
 
