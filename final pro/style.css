@@ -473,7 +473,7 @@
       color: #666; 
     }
     
-    .form-group input, 
+    
     .form-group textarea {
         width: 100%;
         padding: 12px;
@@ -483,11 +483,24 @@
         transition: 0.3s;
     }
 
-    .form-group input:focus, 
+    .form-group input {
+        padding: 12px;
+        border: 2px solid #eee;
+        border-radius: 8px;
+        font-size: 1rem;
+        transition: 0.3s;
+        }
+
+    .form-group input:focus {
+        border-color: var(--accent);
+        outline: none;
+    }
+ 
     .form-group textarea:focus {
         border-color: var(--accent);
         outline: none;
     }
+
 
     .submit-btn {
         background: var(--accent);
